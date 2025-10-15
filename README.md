@@ -1,72 +1,184 @@
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<p align="center">
+ <img width="100%" src="./images/project-banner.png " align="center" alt="Project banner" />
+ <h1 align="center">Health Insurance Cost Analysis</h1>
+ <p align="center">Analysing health insurance cost data from Kaggle.</p>
+</p>
 
-## Template Instructions
+<p align="center">
+  <br/>
+  <a href="https://www.python.org/" title="Python official website">
+    <img alt="Python Logo" height="30px" src="./images/python-logo.png" />
+  </a>
+  <a href="https://pandas.pydata.org/" title="Pandas official wesbite">
+    <img alt="Pandas Logo" height="30px" src="./images/pandas-logo.png" />
+  </a>
+   <a href="https://matplotlib.org/stable/" title="Matplotlib offical website">
+    <img alt="Matplotlib Logo" height="30px" src="./images/matplotlib-logo.png" />
+  </a>
+  <a href="https://seaborn.pydata.org/" title="Seaborn offical website">
+    <img alt="Seaborn Logo" height="30px" src="./images/seaborn-logo.png" />
+  </a>
+  <a href="https://plotly.com/python/" title="Plotly offical website">
+    <img alt="Plotly Logo" height="30px" src="./images/plotly-logo.png" />
+  </a>
+  <a href="https://www.kaggle.com/" title="Kaggle offical website">
+    <img alt="Kaggle Logo" height="30px" src="./images/kaggle-logo.png" />
+  </a>
+  <br />
+</p>
 
-Welcome,
+<p align="center">
+  <a href="https://github.com/users/petedanielsmith/projects/2">Project Board</a>
+  &nbsp;&nbsp;-&nbsp;&nbsp;
+  <a href="./jupyter_notebooks/data_cleanup.ipynb">Data Cleanup</a>
+  &nbsp;&nbsp;-&nbsp;&nbsp;
+  <a href="./jupyter_notebooks/data_visualisation.ipynb">Data Visualisation</a>
+   &nbsp;&nbsp;-&nbsp;&nbsp;
+  <a href="#conclusions">Conclusions</a>
+  <br/><br/><br/>
+</p>
 
-This is the Code Institute student template for the Data Analytics capstone project. We have preinstalled all of the tools you need to get started. It's perfectly okay to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
+<details>
+<summary>Table of contents (Click to show)</summary>
 
-You can safely delete the Template Instructions section of this README.md file and modify the remaining paragraphs for your own project. Please do read the Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
+- [Dataset Content](#dataset-content)
+- [Business Requirements](#business-requirements)
+- [Hypothesis and how to validate?](#hypothesis-and-how-to-validate)
+- [Project Plan](#project-plan)
+- [The rationale to map the business requirements to the Data Visualisations](#the-rationale-to-map-the-business-requirements-to-the-data-visualisations)
+- [Analysis techniques used](#analysis-techniques-used)
+- [Ethical considerations](#ethical-considerations)
+- [Unfixed Bugs](#unfixed-bugs)
+- [Development Roadmap](#development-roadmap)
+- [Conclusions](#conclusions)
+- [Main Data Analysis Libraries](#main-data-analysis-libraries)
+- [Credits](#credits)
+  - [Content](#content)
+  - [Media](#media)
+- [Acknowledgements](#acknowledgements)
 
-## How to use this repo
+</details>
 
-1. Use this template to create your GitHub project repo. Click the **Use this template** button, then click **Create a new repository**.
+<p>
 
-1. Copy the URL of your repository to your clipboard.
+</p>
 
-1. In VS Code, select **File** -> **Open Folder**.
+<details>
+<summary>How to use this repo (Click to show)</summary>
 
-1. Select your `vscode-projects` folder, then click the **Select Folder** button on Windows, or the **Open** button on Mac.
+**Make sure you have:**
 
-1. From the top menu in VS Code, select **Terminal** > **New Terminal** to open the terminal.
+- Python installed, this project used V3.12,
+- VS Code latest
 
-1. In the terminal, type `git clone` followed by the URL of your GitHub repository. Then hit **Enter**. This command will download all the files in your GitHub repository into your vscode-projects folder.
+**Inside VS Code:**
 
-1. In VS Code, select **File** > **Open Folder** again.
+Open Extensions (Ctrl+Shift+X or ⇧⌘X on macOS)
+Install these extensions if you don't have them:
 
-1. This time, navigate to and select the folder for the project you just downloaded. Then, click **Select Folder**.
+- Python extension (by Microsoft in the Extensions Marketplace)
+- Jupyter extension (also by Microsoft)
 
-1. A virtual environment is necessary when working with Python projects to ensure each project's dependencies are kept separate from each other. You need to create your virtual environment, also called a venv, and then ensure that it is activated any time you return to your workspace.
-Click the gear icon in the lower left-hand corner of the screen to open the Manage menu and select **Command Palette** to open the VS Code command palette.
+**From the terminal:**
 
-1. In the command palette, type: *create environment* and select **Python: Create Environment…**
+Open the folder in a terminal where you want the project to be saved
 
-1. Choose **Venv** from the dropdown list.
+#### Run git clone:
 
-1. Choose the Python version you installed earlier. Currently, we recommend Python 3.12.8
-
-1. **DO NOT** click the box next to `requirements.txt`, as you need to do more steps before you can install your dependencies. Click **OK**.
-
-1. You will see a `.venv` folder appear in the file explorer pane to show that the virtual environment has been created.
-
-1. **Important**: Note that the `.venv` folder is in the `.gitignore` file so that Git won't track it.
-
-1. Return to the terminal by clicking on the TERMINAL tab, or click on the **Terminal** menu and choose **New Terminal** if no terminal is currently open.
-
-1. In the terminal, use the command below to install your dependencies. This may take several minutes.
-
- ```console
- pip3 install -r requirements.txt
- ```
-
-1. Open the `jupyter_notebooks` directory, and click on the notebook you want to open.
-
-1. Click the **kernel** button and choose **Python Environments**.
-
-Note that the kernel says `Python 3.12.8` as it inherits from the venv, so it will be Python-3.12.8 if that is what is installed on your PC. To confirm this, you can use the command below in a notebook code cell.
-
-```console
-! python --version
+```
+git clone https://github.com/petedanielsmith/HealthcareInsuranceDataAnalyticsProject.git
 ```
 
-## Deployment Reminders
+#### Navigate in to the new folder:
 
-* Set the `.python-version` Python version to a [Heroku-22](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version that closest matches what you used in this project.
-* The project can be deployed to Heroku using the following steps.
+```
+cd HealthcareInsuranceDataAnalyticsProject
+```
 
-1. Log in to Heroku and create an App
-2. At the **Deploy** tab, select **GitHub** as the deployment method.
-3. Select your repository name and click **Search**. Once it is found, click **Connect**.
-4. Select the branch you want to deploy, then click **Deploy Branch**.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button **Open App** at the top of the page to access your App.
-6. If the slug size is too large, then add large files not required for the app to the `.slugignore` file.
+#### Setup a virtual enviroment:
+
+Create a virtual enviroment for the project.
+
+Linux / Mac:
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Windows CMD:
+
+```
+python3 -m venv .venv
+.venv\Scripts\activate
+```
+
+Windows PowerShell:
+
+```
+python3 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+#### Install the dependancies:
+
+This will install all the dependancies needed for the project in to the virtual enviroment if it is setup, rather than globally
+
+```
+pip install -r requirements.txt
+```
+
+#### Select the Kernel
+
+There is a drop down at the top of the notebooks to select your kernal that will run the Python.
+If you setup a virtual enviroment then make sure you pick the venv one.
+
+---
+
+</details>
+
+<p>
+<br/>
+</p>
+
+## Dataset Content
+
+The dataset used in this project can be downloaded from [Kaggle: Healthcare Insurance Dataset](https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance). It contains information on the relationship between personal attributes, geographic factors, and their impact on medical insurance charges
+
+**Columns include:**
+
+- `age` - The insured persons age.
+- `sex` - Gender (male or female) of the insured.
+- `bmi` - (Body Mass Index): A measure of body fat based on height and weight.
+- `children` - The number of dependents covered.
+- `smoker` - Whether the insured is a smoker (yes or no).
+- `region` - The geographic area of coverage.
+- `charges` - The medical insurance costs incurred by the insured person.
+
+## Business Requirements
+
+## Hypothesis and how to validate?
+
+## Project Plan
+
+## The rationale to map the business requirements to the Data Visualisations
+
+## Analysis techniques used
+
+## Ethical considerations
+
+## Unfixed Bugs
+
+## Development Roadmap
+
+## Conclusions
+
+## Main Data Analysis Libraries
+
+## Credits
+
+### Content
+
+### Media
+
+## Acknowledgements
