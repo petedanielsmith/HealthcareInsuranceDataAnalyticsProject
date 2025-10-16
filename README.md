@@ -157,6 +157,8 @@ The dataset used in this project can be downloaded from [Kaggle: Healthcare Insu
 
 ## Business Requirements
 
+Analyse healthcare insurance data to understand how personal attributes and geographic factors influence insurance costs.
+
 ## Hypothesis and how to validate?
 
 ## Project Plan
