@@ -580,7 +580,6 @@ Age,Age_Group,Age_Group_num,Sex,Sex_num,BMI,BMI_Group,BMI_Group_num,Children,Pla
 52,Ages 45-54,3,Male,1,30.2,Obese,3,1,Family,0,No,0,Southwest,3,9724.53,4862.265,False,False
 25,Ages 18-25,0,Female,0,23.465,Healthy Weight,1,0,Standard,1,No,0,Northeast,0,3206.49135,3206.49135,False,False
 59,Ages 55 and over,4,Male,1,25.46,Overweight,2,1,Family,0,No,0,Northeast,0,12913.9924,6456.9962,False,False
-19,Ages 18-25,0,Male,1,30.59,Obese,3,0,Standard,1,No,0,Northwest,1,1639.5631,1639.5631,False,False
 39,Ages 35-44,2,Male,1,45.43,Severely Obese,4,2,Family,0,No,0,Southeast,2,6356.2707,2118.7569,False,False
 32,Ages 26-34,1,Female,0,23.65,Healthy Weight,1,1,Family,0,No,0,Southeast,2,17626.23951,8813.119755,False,False
 19,Ages 18-25,0,Male,1,20.7,Healthy Weight,1,0,Standard,1,No,0,Southwest,3,1242.816,1242.816,False,False
