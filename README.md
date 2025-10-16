@@ -43,7 +43,7 @@
 
 - [Dataset Content](#dataset-content)
 - [Business Requirements](#business-requirements)
-- [Hypothesis and how to validate?](#hypothesis-and-how-to-validate)
+- [Hypothesis](#hypothesis)
 - [Project Plan](#project-plan)
 - [The rationale to map the business requirements to the Data Visualisations](#the-rationale-to-map-the-business-requirements-to-the-data-visualisations)
 - [Analysis techniques used](#analysis-techniques-used)
@@ -159,15 +159,14 @@ The dataset used in this project can be downloaded from [Kaggle: Healthcare Insu
 
 Analyse healthcare insurance data to understand how personal attributes and geographic factors influence insurance costs.
 
-## Hypothesis and how to validate?
+## Hypothesis
 
-| Hypothesis                                                | How to validate?                         |
-| --------------------------------------------------------- | ---------------------------------------- |
-| Smokers have higher insurance charges                     | Use charts to visualise the distribution |
-| People with higher BMI have higher insurance charges      | Use charts to visualise the distribution |
-| Geographic region influences insurance charges            | Use charts to visualise the distribution |
-| Sex of a person influences insurance charges              | Use charts to visualise the distribution |
-| Including children on an insurance plan increases charges | Use charts to visualise the distribution |
+- Smokers have higher insurance charges
+- People with higher BMI have higher insurance charges
+- Geographic region influences insurance charges
+- Sex of a person influences insurance charges
+- Including children on an insurance plan increases charges
+- Age of a person influences insurance charges
 
 ## Project Plan
 
@@ -181,6 +180,29 @@ The prjoject follows the following steps:
 6. `Document` - Record findings and conclusions.
 
 ## The rationale to map the business requirements to the Data Visualisations
+
+- Smokers have higher insurance charges
+  - Use histogram to show smokers vs overall charge distribution
+  - Correlation matrix to show the correlation
+  - Violin plots to show the distributions
+  - Scatter and 3D scatter charts to show the distribution
+  - Box plot to show the distribution
+- People with higher BMI have higher insurance charges
+  - Correlation matrix to show correlation
+  - Violin plot to show the distribution
+  - Scatter and 3D scatter to show the distribution
+- Geographic region influences insurance charges
+  - Violin plot to show the distribution
+  - Scatter chart to show the distribution
+- Sex of a person influences insurance charges
+  - Violin plot to show the distribution
+  - Box plot to show the distribution
+- Including children on an insurance plan increases charges
+  - Bar chart to show the average sales charges
+- Age of a person influences insurance charges
+  - Correlation matrix to show correlation
+  - Violin plot to show the distribution
+  - 3D scatter to show the distribution
 
 ## Analysis techniques used
 
