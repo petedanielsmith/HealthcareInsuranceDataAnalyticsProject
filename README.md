@@ -251,6 +251,23 @@ Next steps:
 
 ## Conclusions
 
+- Smokers have higher insurance charges
+  - Smoking clearly has the biggest effect on charges of all the data points available.
+- People with higher BMI have higher insurance charges
+  - BMI had less of an effect on the charges than i expected, but did have an effect if the person was obese or severly obese and also a smoker.
+- Geographic region influences insurance charges
+  - Geographic region didn't affect the charges to any note.
+- Sex of a person influences insurance charges
+  - Sex didn't affect the charges to any note.
+- Including children on an insurance plan increases charges
+  - Including children on the plan did have a very small increase. 4 and 5 children plans were coming in a bit lowerbut due to the small number of data points recorded for these values, nothing could be read in to this.
+- Age of a person influences insurance charges
+  - Age did slowly increase the charges as they got older but wasn't by a huge amount.
+
+Overall the obese and severly obese smokers had the largest affect on the charges with age also slowly increasing. This is all very well displayed in this chart from the visualisation notebook:
+
+![Violin plot of all the distributions](./charts/distribution_of_charges_violin.png)
+
 ## Main Data Analysis Libraries
 
 The libraries used for data analysis were:
