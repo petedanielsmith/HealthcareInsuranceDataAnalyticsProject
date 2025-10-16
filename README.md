@@ -171,6 +171,15 @@ Analyse healthcare insurance data to understand how personal attributes and geog
 
 ## Project Plan
 
+The prjoject follows the following steps:
+
+1. `Extract` - Extract the data from Kaggle.
+2. `Load` - Load the CSV via Pandas.
+3. `Transform` - Clean and process the data using Pandas, adding new columns and checking for missing or duplicated values.
+4. `Visualise` - Creating charts with Matplotlib, Seaborn and Plotly to visualise trends.
+5. `Analyse` - Interpret what the visualisations displayed.
+6. `Document` - Record findings and conclusions.
+
 ## The rationale to map the business requirements to the Data Visualisations
 
 ## Analysis techniques used
