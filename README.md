@@ -192,6 +192,19 @@ The data was already anonymised and contained no data that could be used to iden
 
 ## Development Roadmap
 
+Challenges faced:
+
+- Having a separate notebook for clean and visualise meant i had to repeat the categorisation steps once importing the cleaned csv as the csv fileformat I used doesn't persist this data. If doing again I would investigate what other file formats data can be saved out to.
+- Creating a shared legend for multi chart plots rather than a repeating legend required ChatGPT to help me.
+- Adding layout styles and moving the intial camera on Plotly 3D charts required ChatGPT to help me.
+- GitHub static preview of notebooks does not display Plotly chart images so I added a link to the expored chart images.
+
+Next steps:
+
+- Create a feature engineering pipeline to normalise and transform the data.
+- Create a predictive model that can predict insurance costs from given parameters.
+- Create a full interactive [Plotly Dash](https://dash.plotly.com/) charts app that have filter options that apply across multiple charts at once.
+
 ## Conclusions
 
 ## Main Data Analysis Libraries
