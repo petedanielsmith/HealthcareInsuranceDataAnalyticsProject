@@ -206,6 +206,13 @@ The libraries used for data analysis were:
 
 ## Credits
 
+- [Code institute](https://codeinstitute.net/) - The intial project structure.
+- [Kaggle](https://www.kaggle.com/) - Providing the data set used.
+- [NHS website](https://www.nhs.uk/conditions/obesity/) - Providing the BMI category definitions.
+- [KFF](https://www.kff.org/affordable-care-act/state-indicator/marketplace-plan-selection-by-age/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D) & [State Health Compare](https://statehealthcompare.shadac.org/table/4/health-insurance-coverage-type-by-age#1/5,4,1,10,86,9,8,6,3,12,13,20,25,14,21,22,23,24,11/76/7,8) - Information on insurance age group definitions.
+- [ChatGPT](https://chatgpt.com/) - Help getting handles and making a single legend on a multi chart plots and adding layout changes to Plotly charts.
+- [SimpleSteps.guide](https://simplesteps.guide/guides/technology/machine-learning-ai) - My notes I recorded from the Code Institute course.
+
 ### Content
 
 ### Media
