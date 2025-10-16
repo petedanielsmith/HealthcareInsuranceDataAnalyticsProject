@@ -266,7 +266,7 @@ Next steps:
 - Age of a person influences insurance charges
   - Age did slowly increase the charges as they got older but wasn't by a huge amount.
 
-Overall the obese and severly obese smokers had the largest affect on the charges with age also slowly increasing. This is all very well displayed in this chart from the visualisation notebook:
+Overall smoking was the biggest influence by far on insurance charges, especially if they were obese and severly obese smokers. Charges with age also slowly increased as the people got older. This is all very well displayed in this chart from the visualisation notebook:
 
 ![Violin plot of all the distributions](./charts/distribution_of_charges_violin.png)
 
