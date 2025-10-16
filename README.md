@@ -196,6 +196,14 @@ The data was already anonymised and contained no data that could be used to iden
 
 ## Main Data Analysis Libraries
 
+The libraries used for data analysis were:
+
+1. `Pandas` - For data loading, transforming and cleaning.
+2. `NumPy` - For data transforming in to categories.
+3. `Matplotlib` - For overall multi chart layouts.
+4. `Seaborn` - For a lot of the individual charts.
+5. `Plotly` - For interactive charts.
+
 ## Credits
 
 ### Content
