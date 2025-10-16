@@ -184,6 +184,28 @@ The prjoject follows the following steps:
 
 ## Analysis techniques used
 
+1. Methods Used:
+
+   - Descriptive statistics (`.describe()`, `.info()` etc.)
+
+   - Segmentation (used bins for age group and bmi group)
+
+   - Visual analytics (`Matplotlib`, `Seaborn`, `Plotly`)
+
+2. Limitations & Alternatives:
+
+   - Limited data points availble in the csv, other factors could influence the decsion such as medial history etc.
+
+3. Structure Justification:
+
+   - Data cleanup and transform notebook as the first part.
+
+   - Visualisation notebook for the second part.
+
+4. Use of Generative AI:
+
+   - AI supported: GitHub copilot extention was installed and so did speed up some repetative tasks.
+
 ## Ethical considerations
 
 The data was already anonymised and contained no data that could be used to identify an individual so there were no ethical concerns.
