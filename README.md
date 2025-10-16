@@ -161,6 +161,14 @@ Analyse healthcare insurance data to understand how personal attributes and geog
 
 ## Hypothesis and how to validate?
 
+| Hypothesis                                                | How to validate?                         |
+| --------------------------------------------------------- | ---------------------------------------- |
+| Smokers have higher insurance charges                     | Use charts to visualise the distribution |
+| People with higher BMI have higher insurance charges      | Use charts to visualise the distribution |
+| Geographic region influences insurance charges            | Use charts to visualise the distribution |
+| Sex of a person influences insurance charges              | Use charts to visualise the distribution |
+| Including children on an insurance plan increases charges | Use charts to visualise the distribution |
+
 ## Project Plan
 
 ## The rationale to map the business requirements to the Data Visualisations
