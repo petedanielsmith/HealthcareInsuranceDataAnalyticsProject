@@ -186,6 +186,8 @@ The prjoject follows the following steps:
 
 ## Ethical considerations
 
+The data was already anonymised and contained no data that could be used to identify an individual so there were no ethical concerns.
+
 ## Unfixed Bugs
 
 ## Development Roadmap
