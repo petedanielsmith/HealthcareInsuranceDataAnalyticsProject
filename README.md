@@ -206,6 +206,8 @@ The libraries used for data analysis were:
 
 ## Credits
 
+### Content
+
 - [Code institute](https://codeinstitute.net/) - The intial project structure.
 - [Kaggle](https://www.kaggle.com/) - Providing the data set used.
 - [NHS website](https://www.nhs.uk/conditions/obesity/) - Providing the BMI category definitions.
@@ -213,8 +215,15 @@ The libraries used for data analysis were:
 - [ChatGPT](https://chatgpt.com/) - Help getting handles and making a single legend on a multi chart plots and adding layout changes to Plotly charts.
 - [SimpleSteps.guide](https://simplesteps.guide/guides/technology/machine-learning-ai) - My notes I recorded from the Code Institute course.
 
-### Content
-
 ### Media
+
+- [Midjourney AI](https://www.midjourney) - AI Generated banner logo.
+- [Code Institute](https://codeinstitute.net/) - Code Institute logo.
+- [Python](https://www.python.org/) - Python logo image.
+- [Pandas](https://pandas.pydata.org/) - Pandas logo image.
+- [Matplotlib](https://matplotlib.org/) - Matplotlib logo image.
+- [Seaborn](https://seaborn.pydata.org/) - Seaborn logo image.
+- [Plotly](https://plotly.com/python/) - Plotly logo image.
+- [Kaggle](https://www.kaggle.com/) - Kaggle logo image.
 
 ## Acknowledgements
