@@ -301,5 +301,3 @@ The libraries used for data analysis were:
 - [Seaborn](https://seaborn.pydata.org/) - Seaborn logo image.
 - [Plotly](https://plotly.com/python/) - Plotly logo image.
 - [Kaggle](https://www.kaggle.com/) - Kaggle logo image.
-
-## Acknowledgements
